@@ -12,4 +12,4 @@ export const postSchema = z.object({
 
 })
 
-export type TPost = z.infer<typeof postSchema>
+export type TPostProps = z.infer<typeof postSchema>
